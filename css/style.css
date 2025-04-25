@@ -253,7 +253,7 @@ body {
     align-items: center;
     gap: 20px;
     align-self: stretch;
-    background: var(--Angell-Hall-Ash, #989C97);
+    background: var(--Blue, #00274C);
 }
 
 footer .body-1 {
@@ -270,6 +270,18 @@ footer .body-1 {
 
 footer #footer-year {
     color: #FFF;
+}
+
+footer a {
+    color: var(--White, #FFFFFF);
+    text-decoration: 2px solid var(--White, #FFFFFF) underline;
+
+    /* Body 1 */
+    font-family: Atkinson Hyperlegible;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
 }
 
 
