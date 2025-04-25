@@ -193,6 +193,8 @@ nav ul li a {
     gap: 10px;
     align-self: stretch;
     flex-wrap: wrap;
+
+    padding-left: 0px;
 }
 
 .section .buttons-list .buttons {
@@ -217,6 +219,10 @@ nav ul li a {
     font-weight: 600;
     line-height: 18px; /* 100% */
 }
+
+/* .buttons-list {
+    padding-left: 0px;
+} */
 
 
 
@@ -388,6 +394,140 @@ h3 {
     gap: 20px;
 }
 
+.accordion, .panel {
+    box-sizing: border-box;
+}
+
+button {
+    color: var(--Blue, #00274C);
+
+    /* H2 */
+    font-family: Inter;
+    font-size: 22.781px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.614px; /* 129.993% */
+}
+
+/* // lines 393-418 adapted from https://www.w3schools.com/howto/howto_js_accordion.asp */
+.accordion {
+    background-color: #FFCB05;
+    color: #00274C;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: #DBAF00;
+    /* color: #fff; */
+    /* padding-bottom: 20px; */
+}
+
+.accordion:hover {
+    background-color: #DBAF00;
+    /* color: #fff; */
+}
+
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(209, 167, 0, 0.15);
+    max-height: 0;
+    overflow: auto;
+    width: 100%;
+    box-sizing: border-box;
+    transition: max-height 0.2s ease-out;
+}
+
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+
+    /* color: var(--Blue, #00274C); */
+
+    /* H2 */
+    font-family: Inter;
+    font-size: 22.781px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.614px; /* 129.993% */
+}
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* ----- */
+#content {
+    gap: 0px;
+}
+
+#content .section-navs, #content .section, #content .accordion{
+    margin-top: 30px;
+}
+
+#content .section #section-accordion-1, #content .section #section-accordion-2, #content .section #section-accordion-3, #content .section #section-accordion-4, #content .section #section-accordion-5, #content .section #section-accordion-6, #content .section #section-accordion-7, #content .section #section-accordion-8, #content .section #section-accordion-9, #content .section #section-accordion-11, #content .section #section-accordion-10{
+    margin-top: 0px;
+}
+
+a {
+    color: #655a52;
+    font-weight: bold;
+}
+
+.accordion-list-item {
+    margin-bottom: 10px;
+}
+
+/* .panel a {
+    margin-bottom: 10px;
+} */
+
+.panel a:last-of-type {
+    line-height: 20px;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(209, 167, 0, 0.15);
+    max-height: 0;
+    overflow: auto;
+    width: 100%;
+    box-sizing: border-box;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion.active + .panel {
+    padding-bottom: 20px;
+}
+
+.buttons {
+    border: 2px solid black;
+}
+
+.accordion:focus {
+    outline: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -458,6 +598,29 @@ h3 {
 
     #content .section {
         padding: var(--margins-vertical_margin, 15px) var(--margins-margin, 80px);
+    }
+
+    #content .section-navs {
+        display: flex;
+        /* padding: var(--padding-section, 15px); */
+        padding: var(--margins-vertical_margin, 15px) var(--margins-margin, 80px);
+        flex-direction: column;
+        align-items: left;
+        gap: var(--spacing-small, 15px);
+        align-self: stretch;
+
+        /* style */
+        border-radius: var(--radius-section, 8px);
+        background: var(--matthaei-violet-diluted, rgba(87, 82, 148, 0.15));
+    }
+
+
+
+    #content .section .flex-container .buttons:hover, #content .section .buttons:hover {
+        background-color: #DBAF00;
+        /* text-decoration: 2px solid #FFCB05 underline; */
+        transition: color .3s ease;
+        /* transition: text-decoration 0.5s ease-in; */
     }
 
 

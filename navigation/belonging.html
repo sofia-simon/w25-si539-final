@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- favicon -->
-    <link rel="icon" href="photos/umsi_favicon.jpg" type="image/jpg">
+    <link rel="icon" href="../photos/umsi_favicon.jpg" type="image/jpg">
     
     <!-- style sheets -->
-    <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/html5reset.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
 
     <header class="header-container">
         <div class="header-logo">
-            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
+            <img src="../photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
         </div>
         
         <nav>
@@ -53,87 +53,89 @@
         </section>
 
         <!-- Personal Values & Experiences -->
-        <section class="section">
-            <h2>Personal Values & Lived Experiences</h2>
+        <h2>Personal Values & Lived Experiences</h2>
+        <ul>
+            <li><a href="https://careercenter.umich.edu/content/identity-toolkits" target="_blank">UCC Identity-Focused Career Toolkits</a></li>
+            <li><a href="https://alumni.umich.edu/career/career-guides/" target="_blank">U-M Alumni Association Identity Career Guides</a></li>
+            <li><a href="http://hrc.org/resources/corporate-equality-index" target="_blank">Corporate Equality Index – Human Rights Campaign</a></li>
+        </ul>
+
+        <!-- International Student Status -->
+        <button class="accordion" tabindex="0">International Student Status</button>
+        <div class="panel" tabindex="-1">
             <ul>
-                <li><a href="https://careercenter.umich.edu/content/identity-toolkits" target="_blank">UCC Identity-Focused Career Toolkits</a></li>
-                <li><a href="https://alumni.umich.edu/career/career-guides/" target="_blank">U-M Alumni Association Identity Career Guides</a></li>
-                <li><a href="http://hrc.org/resources/corporate-equality-index" target="_blank">Corporate Equality Index – Human Rights Campaign</a></li>
-            </ul>
-            <!-- International Student Status -->
-            <section class="section">
-                <h2>International Student Status</h2>
-                <ul>
-                    <li><a href="https://interstride.com/umich/" target="_blank">U-M Interstride Platform</a></li>
-                    <li><a href="https://docs.google.com/document/d/1YgGjH8GxfsrKEjM6yvv9z9Xii4oZK-4BcxV2hLYo1-c/edit?usp=sharing" target="_blank">Interstride Quick Reference Guide</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1taMRXQjYII38pMfFihn0xSoFwYCuhI9BdrJ2055XLFI/edit?usp=sharing" target="_blank">UMSI International Student Orientation & Career Development Slides</a></li>
-                    <li><a href="https://internationalcenter.umich.edu/" target="_blank">U-M International Center</a></li>
-                    <li><a href="https://internationalcenter.umich.edu/students/f1-students/cpt" target="_blank">CPT Information</a></li>
-                    <li><a href="https://internationalcenter.umich.edu/students/f1-students/opt" target="_blank">OPT Information</a></li>
-                    <li><a href="https://internationalcenter.umich.edu/advising-hours" target="_blank">International Center Advising Options</a></li>
-                    <li><a href="https://docs.google.com/spreadsheets/d/13PAp1nBWaMxIHEf9_rCmdIZ8a5u-M9Dhlhh3SEZWcg4/edit?usp=sharing" target="_blank">UMSI International Student Job Outcomes</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1eJhF7OPyrOMxfmbXp6CCZN0S85KN1guXOHmKgRe7XDw/edit?usp=sharing" target="_blank">U.S. Job/Internship Search Workshop Slides</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1cNgNn0OTaLo4abxGujrL2YIjesTpIHJhredXN77wXnM/edit?usp=sharing" target="_blank">Work Authorization Options Workshop Slides</a></li>
-                    <li><a href="https://careercenter.umich.edu/profile/rachel-zhang" target="_blank">Rachel Zhang – Career Coordinator for International Students</a></li>
-                </ul>
-            </section>
+                <li class="accordion-list-item"><a href="https://interstride.com/umich/" target="_blank">U-M Interstride Platform</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1YgGjH8GxfsrKEjM6yvv9z9Xii4oZK-4BcxV2hLYo1-c/edit?usp=sharing" target="_blank">Interstride Quick Reference Guide</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1taMRXQjYII38pMfFihn0xSoFwYCuhI9BdrJ2055XLFI/edit?usp=sharing" target="_blank">UMSI International Student Orientation & Career Development Slides</a></li>
+                <li class="accordion-list-item"><a href="https://internationalcenter.umich.edu/" target="_blank">U-M International Center</a></li>
+                <li class="accordion-list-item"><a href="https://internationalcenter.umich.edu/students/f1-students/cpt" target="_blank">CPT Information</a></li>
+                <li class="accordion-list-item"><a href="https://internationalcenter.umich.edu/students/f1-students/opt" target="_blank">OPT Information</a></li>
+                <li class="accordion-list-item"><a href="https://internationalcenter.umich.edu/advising-hours" target="_blank">International Center Advising Options</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/spreadsheets/d/13PAp1nBWaMxIHEf9_rCmdIZ8a5u-M9Dhlhh3SEZWcg4/edit?usp=sharing" target="_blank">UMSI International Student Job Outcomes</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1eJhF7OPyrOMxfmbXp6CCZN0S85KN1guXOHmKgRe7XDw/edit?usp=sharing" target="_blank">U.S. Job/Internship Search Workshop Slides</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1cNgNn0OTaLo4abxGujrL2YIjesTpIHJhredXN77wXnM/edit?usp=sharing" target="_blank">Work Authorization Options Workshop Slides</a></li>
+                <li class="accordion-list-item"><a href="https://careercenter.umich.edu/profile/rachel-zhang" target="_blank">Rachel Zhang – Career Coordinator for International Students</a></li>
+            </ul>           
+        </div>
 
-            <!-- Accessibility in the Workplace -->
-            <section class="section">
-                <h2>Accessibility in the Workplace</h2>
-                <ul>
-                    <li><a href="https://askjan.org/index.cfm" target="_blank">Job Accommodation Network (JAN)</a></li>
-                    <li><a href="https://careercenter.umich.edu/content/resources-students-disabilities" target="_blank">Your Rights in Employment – EEOC</a></li>
-                    <li><a href="https://limeconnect.com/" target="_blank">Lime Connect – Career Resources for People with Disabilities</a></li>
-                </ul>
-            </section>
+        <!-- Accessibility in the Workplace -->
+        <button class="accordion" tabindex="0">Accessibility in the Workplace</button>
+        <div class="panel" tabindex="-1">
+            <ul>
+                <li class="accordion-list-item"><a href="https://askjan.org/index.cfm" target="_blank">Job Accommodation Network (JAN)</a></li>
+                <li class="accordion-list-item"><a href="https://careercenter.umich.edu/content/resources-students-disabilities" target="_blank">Your Rights in Employment – EEOC</a></li>
+                <li class="accordion-list-item"><a href="https://limeconnect.com/" target="_blank">Lime Connect – Career Resources for People with Disabilities</a></li>
+            </ul>           
+        </div>
 
-            <!-- First-Generation Students -->
-            <section class="section">
-                <h2>First-Generation Students</h2>
-                <ul>
-                    <li><a href="https://careercenter.umich.edu/content/first-generation-toolkit" target="_blank">UCC First-Generation Student Toolkit</a></li>
-                </ul>
-            </section>
+        <!-- First-Generation Students -->
+        <button class="accordion" tabindex="0">First-Generation Students</button>
+        <div class="panel" tabindex="-1">
+            <ul>
+                <li class="accordion-list-item"><a href="https://careercenter.umich.edu/content/first-generation-toolkit" target="_blank">UCC First-Generation Student Toolkit</a></li>
+            </ul>           
+        </div>
 
-            <!-- Student Veterans -->
-            <section class="section">
-                <h2>Student Veterans</h2>
-                <ul>
-                    <li><a href="https://careercenter.umich.edu/content/student-veteran-career-resources-toolkit" target="_blank">UCC Student Veteran Toolkit</a></li>
-                    <li><a href="https://studentveteransofamerica.jobs/ann-arbor-mi/data-analyst-intern/85DDC4DF57E94D709C4B9B953EEFEE25/job/" target="_blank">Student Veterans of America Job Board</a></li>
-                    <li><a href="https://www.uschamberfoundation.org/hiring-our-heroes" target="_blank">Hiring Our Heroes: Events & Workshops</a></li>
-                    <li><a href="https://www.mynextmove.org/" target="_blank">My Next Move – Career Explorer</a></li>
-                    <li><a href="https://www.careeronestop.org/ResourcesFor/Veteran/veteran.aspx" target="_blank">CareerOneStop Military & Veterans Resources</a></li>
-                </ul>
-            </section>
+        <!-- Student Veterans -->
+        <button class="accordion" tabindex="0">Student Veterans</button>
+        <div class="panel" tabindex="-1">
+            <p>Cover letters are an opportunity to showcase your personality and explain why you're a great fit for the role. Use these resources to create a compelling cover letter that stands out.</p>
 
-            <!-- Student Parents & Caregivers -->
-            <section class="section">
-                <h2>Student Parents & Caregivers</h2>
-                <ul>
-                    <li><a href="https://www.cew.umich.edu/advocacy-initiatives/students-with-children/" target="_blank">CEW+ Resources for Student Caregivers</a></li>
-                </ul>
-            </section>
+            <ul>
+                <li class="accordion-list-item"><a href="https://careercenter.umich.edu/content/student-veteran-career-resources-toolkit" target="_blank">UCC Student Veteran Toolkit</a></li>
+                <li class="accordion-list-item"><a href="https://studentveteransofamerica.jobs/ann-arbor-mi/data-analyst-intern/85DDC4DF57E94D709C4B9B953EEFEE25/job/" target="_blank">Student Veterans of America Job Board</a></li>
+                <li class="accordion-list-item"><a href="https://www.uschamberfoundation.org/hiring-our-heroes" target="_blank">Hiring Our Heroes: Events & Workshops</a></li>
+                <li class="accordion-list-item"><a href="https://www.mynextmove.org/" target="_blank">My Next Move – Career Explorer</a></li>
+                <li class="accordion-list-item"><a href="https://www.careeronestop.org/ResourcesFor/Veteran/veteran.aspx" target="_blank">CareerOneStop Military & Veterans Resources</a></li>
+            </ul>           
+        </div>
 
-            <!-- Transfer Students -->
-            <section class="section">
-                <h2>Transfer Students</h2>
-                <ul>
-                    <li><a href="https://docs.google.com/document/d/1vSu1MACWvr6as2WJJowAE1Lq0O0TTrzcc0m10uxn7FI/edit?usp=sharing" target="_blank">UMSI Transfer Student Resume Guide</a></li>
-                </ul>
-            </section>
-        </section>
+        <!-- Student Parents & Caregivers -->
+        <button class="accordion" tabindex="0">Student Parents & Caregivers</button>
+        <div class="panel" tabindex="-1">
+            <ul>
+                <li><a href="https://www.cew.umich.edu/advocacy-initiatives/students-with-children/" target="_blank">CEW+ Resources for Student Caregivers</a></li>
+            </ul>           
+        </div>
+
+        <!-- Transfer Students -->
+        <button class="accordion" tabindex="0">Transfer Students</button>
+        <div class="panel" tabindex="-1">
+            <ul>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1vSu1MACWvr6as2WJJowAE1Lq0O0TTrzcc0m10uxn7FI/edit?usp=sharing" target="_blank">UMSI Transfer Student Resume Guide</a></li>
+            </ul>           
+        </div>
 
         <!-- Assessing Company Culture -->
-        <section class="accordion">
-            <h2>Assessing Company Culture</h2>
-            <ul>
-                <li><a href="https://docs.google.com/document/d/1PXqYuV0lnPBjDe0yAbAhrhRYUEt4mw-dfYhOBvHF5aM/edit" target="_blank">Interview Questions to Assess Company Culture</a></li>
-                <li><a href="https://www.eeoc.gov/prohibited-employment-policiespractices" target="_blank">Know Your Rights - Equal Opportunity Commission</a></li>
-            </ul>
-        </section>
+        <button class="accordion" tabindex="0">Assessing Company Culture</button>
+        <div class="panel" tabindex="-1">
+            <p>Cover letters are an opportunity to showcase your personality and explain why you're a great fit for the role. Use these resources to create a compelling cover letter that stands out.</p>
 
+            <ul>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1PXqYuV0lnPBjDe0yAbAhrhRYUEt4mw-dfYhOBvHF5aM/edit" target="_blank">Interview Questions to Assess Company Culture</a></li>
+                <li class="accordion-list-item"><a href="https://www.eeoc.gov/prohibited-employment-policiespractices" target="_blank">Know Your Rights - Equal Opportunity Commission</a></li>
+            </ul>           
+        </div>
     </main>
 
 
@@ -151,6 +153,8 @@
             </script>
         </div>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

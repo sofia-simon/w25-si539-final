@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- favicon -->
-    <link rel="icon" href="photos/umsi_favicon.jpg" type="image/jpg">
+    <link rel="icon" href="../photos/umsi_favicon.jpg" type="image/jpg">
     
     <!-- style sheets -->
-    <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/html5reset.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
 
     <header class="header-container">
         <div class="header-logo">
-            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
+            <img src="../photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
         </div>
         
         <nav>
@@ -52,63 +52,41 @@
         </section>
         
         <!-- Interview Preparation & Execution -->
-        <section class="accordion">
-            <h2>Interview Preparation & Execution</h2>
+        <button class="accordion" tabindex="0">Interview Preparation & Execution</button>
+        <div class="panel" tabindex="-1">
             <ul>
-                <li><a href="https://docs.google.com/presentation/d/15n-XqsFEntdbkZz89K-ohf7Or1NnCt5CQNDG-6fh2a0/edit?usp=sharing" target="_blank">[Workshop Slides] Intro to Interviewing</a></li>
-                <li><a href="https://docs.google.com/document/d/1lqMTo5GGCa-0dabg2LZiW2YWasirj05ymFLrQhkcQ7c/edit#" target="_blank">Pre-Interview Worksheet</a></li>
-                <li><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.kck2nwabknyi" target="_blank">AI Prompt Resource Guide: Interview Prep</a></li>
-                <li><a href="https://docs.google.com/document/d/16HY__RHplZMBGhWmM6OavMvXXwiuNMxSPsfGCTIKd-o/edit?usp=share_link" target="_blank">Tell Me About Yourself (TMAY) Worksheet</a></li>
-                <li><a href="https://docs.google.com/document/d/1GYuu8djjlM33PGblkjMNc9ZCgFXH0OoktPeLK2Nr7TQ/edit?usp=sharing" target="_blank">Interview Protocol: Questions to Ask in an Interview</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1eQ4OqqxPaah5yOv0kMkLxwrOnKJPVyBjfC79bBfaYTM/edit?usp=sharing" target="_blank">Identifying Positive and Inclusive Organizations - Interview Questions</a></li>
-                <li><a href="https://docs.google.com/presentation/d/1zKegYumYvZG0y5vAWU91py8K_cHfAG3f22DUA2e_H9c/edit?usp=sharing" target="_blank">How to Talk About Course Projects in Interviews</a></li>
-                <li><a href="https://alumni.umich.edu/career/career-guides/interview-guide/" target="_blank">Interview Guide (from the U-M Alumni Association)</a></li>
-                <li><a href="https://docs.google.com/document/d/10Ew419uLQX5QnHiC0THi94RnlGf8BD4Pvohhz3r_0xo/edit?usp=sharing" target="_blank">[Handout] Virtual Interviews/Interviewing During Covid</a></li>
-                <li><a href="https://docs.google.com/document/d/1_DIZ5Zj39oBUgyFPt8twTG0J18LKthZdwOrWG6R5X_M/edit?usp=sharing" target="_blank">[Handout] Talent Assessments and Pre-Hire Testing</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/15n-XqsFEntdbkZz89K-ohf7Or1NnCt5CQNDG-6fh2a0/edit?usp=sharing" target="_blank">[Workshop Slides] Intro to Interviewing</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1lqMTo5GGCa-0dabg2LZiW2YWasirj05ymFLrQhkcQ7c/edit#" target="_blank">Pre-Interview Worksheet</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.kck2nwabknyi" target="_blank">AI Prompt Resource Guide: Interview Prep</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/16HY__RHplZMBGhWmM6OavMvXXwiuNMxSPsfGCTIKd-o/edit?usp=share_link" target="_blank">Tell Me About Yourself (TMAY) Worksheet</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1GYuu8djjlM33PGblkjMNc9ZCgFXH0OoktPeLK2Nr7TQ/edit?usp=sharing" target="_blank">Interview Protocol: Questions to Ask in an Interview</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/spreadsheets/d/1eQ4OqqxPaah5yOv0kMkLxwrOnKJPVyBjfC79bBfaYTM/edit?usp=sharing" target="_blank">Identifying Positive and Inclusive Organizations - Interview Questions</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1zKegYumYvZG0y5vAWU91py8K_cHfAG3f22DUA2e_H9c/edit?usp=sharing" target="_blank">How to Talk About Course Projects in Interviews</a></li>
+                <li class="accordion-list-item"><a href="https://alumni.umich.edu/career/career-guides/interview-guide/" target="_blank">Interview Guide (from the U-M Alumni Association)</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/10Ew419uLQX5QnHiC0THi94RnlGf8BD4Pvohhz3r_0xo/edit?usp=sharing" target="_blank">[Handout] Virtual Interviews/Interviewing During Covid</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1_DIZ5Zj39oBUgyFPt8twTG0J18LKthZdwOrWG6R5X_M/edit?usp=sharing" target="_blank">[Handout] Talent Assessments and Pre-Hire Testing</a></li>
             </ul>
-
-            <!-- Behavioral Interviews -->
-            <section class="section">
-                <h2>Behavioral Interviews</h2>
-                <ul>
-                    <li><a href="https://docs.google.com/document/d/1NIjSaf5JhtLFKrXP55yVc2zoriTEwaKTijkJf7SopFw/edit?usp=sharing" target="_blank">Behavioral Interview Questions</a></li>
-                    <li><a href="https://docs.google.com/document/d/12Bo0JkhD_Hy0ENeECJSTnAcK3OPcQyVbYC8rtqKSOUk/edit?usp=sharing" target="_blank">Interviewing Using the STAR Method</a></li>
-                </ul>
-            </section>
-    
-            <!-- Technical, Design, & Case Interviews -->
-            <section class="section">
-                <h2>Technical, Design, & Case Interviews</h2>
-                <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/nx0rgf1edacbedy2nyoq4/Winter-2024_Ace-the-Data-Science-Interview.mp4?rlkey=onhmr7183yd3rxm8yz8w3lxih&dl=0" target="_blank">[Recording] Ace the Data Science Interview with Nick Singh</a></li>
-                    <li><a href="https://docs.google.com/document/d/1qys4-VL7LVX-8HG-uPVUV0w_G5uKsyQ_cK7ZDsxle4s/edit?usp=sharing" target="_blank">Preparing for Technical Interviews</a></li>
-                    <li><a href="https://docs.google.com/document/d/1MPPjQ8j2c6LS4XrUXCctXYyoUaS1XJ7PUk6f5sxCVLY/edit?usp=sharing" target="_blank">[Handout] Prep for Consulting Recruiting / Case Interview Prep</a></li>
-                    <li><a href="https://blog.uxfol.io/ux-portfolio-presentation/" target="_blank">How to Present Your UX Portfolio in an Interview</a></li>
-                    <li><a href="https://umich.instructure.com/courses/137916/modules/items/2424429" target="_blank">[Handout] Design Challenge Technical Interview (PDF)</a></li>
-                    <li><a href="https://umich.instructure.com/courses/137916/modules/items/2424430" target="_blank">[Handout] Heuristic Evaluation Technical Interview (PDF)</a></li>
-                    <li><a href="https://umich.instructure.com/courses/137916/modules/items/1543667" target="_blank">Vault Guide to Case Interviews (EPUB)</a></li>
-                </ul>
-            </section>
-        </section>
+        </div>
+        
         
         <!-- Job/Internship Offer Evaluation -->
-        <section class="accordion">
-            <h2>Job/Internship Offer Evaluation</h2>
+        <button class="accordion" tabindex="0">Job/Internship Offer Evaluation</button>
+        <div class="panel" tabindex="-1">
             <ul>
-                <li><a href="https://docs.google.com/document/d/1dSWLD3nJpMTvE4h4D38TewIUjZrlSTYXNlkEE59wca8/edit?usp=sharing" target="_blank">Job Offer Evaluation</a></li>
-            </ul>
-        </section>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1dSWLD3nJpMTvE4h4D38TewIUjZrlSTYXNlkEE59wca8/edit?usp=sharing" target="_blank">Job Offer Evaluation</a></li>
+            </ul>           
+        </div>
         
         <!-- Negotiation Strategies -->
-        <section class="accordion">
-            <h2>Negotiation Strategies</h2>
+        <button class="accordion" tabindex="0">Negotiation Strategies</button>
+        <div class="panel" tabindex="-1">
             <ul>
-                <li><a href="https://docs.google.com/presentation/d/1IjmPd-b4bD5mcCXhdBb2OmF-0yWtYYLuw6KxHRTgo4I/edit?usp=sharing" target="_blank">[Workshop Slides] Getting Your Worth: Salary Negotiations</a></li>
-                <li><a href="https://docs.google.com/document/d/1pyL592PwhfCCAW2b4HO4KW320hamvHabmaP-2NvZqdE/edit?usp=sharing" target="_blank">[Worksheet] How to Draft a Negotiations Response</a></li>
-                <li><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.zbvnflngxekd" target="_blank">AI Prompt Resource Guide: Negotiations</a></li>
-                <li><a href="https://umich.instructure.com/courses/137916/modules/items/827305" target="_blank">Additional Resources for Salary and Negotiation</a></li>
-            </ul>
-        </section>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1IjmPd-b4bD5mcCXhdBb2OmF-0yWtYYLuw6KxHRTgo4I/edit?usp=sharing" target="_blank">[Workshop Slides] Getting Your Worth: Salary Negotiations</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1pyL592PwhfCCAW2b4HO4KW320hamvHabmaP-2NvZqdE/edit?usp=sharing" target="_blank">[Worksheet] How to Draft a Negotiations Response</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.zbvnflngxekd" target="_blank">AI Prompt Resource Guide: Negotiations</a></li>
+                <li class="accordion-list-item"><a href="https://umich.instructure.com/courses/137916/modules/items/827305" target="_blank">Additional Resources for Salary and Negotiation</a></li>
+            </ul>           
+        </div>
     </main>
 
 
@@ -126,6 +104,8 @@
             </script>
         </div>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

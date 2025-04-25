@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- favicon -->
-    <link rel="icon" href="photos/umsi_favicon.jpg" type="image/jpg">
+    <link rel="icon" href="../photos/umsi_favicon.jpg" type="image/jpg">
     
     <!-- style sheets -->
-    <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/html5reset.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
 
     <header class="header-container">
         <div class="header-logo">
-            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
+            <img src="../photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
         </div>
         
         <nav>
@@ -59,11 +59,15 @@
             <ul>
                 <li><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.m3fsccjzqtbh" target="_blank">AI Prompt Resource Guide: Career Exploration</a></li>
             </ul>
-
+            
             <!-- Data Careers -->
-            <section class="accordion">
-                <h2>Data Careers</h2>
+            <button class="accordion" id="section-accordion-1" tabindex="0">Data Careers</button>
+            <div class="panel" tabindex="-1">    
                 <ul>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/15kYeycV4isGpNFI6DWnjqTkp5JnMyitKJ1Wc8kIH-eA/edit?usp=sharing" target="_blank">Cover Letter Guide</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1WJrgSiwXGxGLN_mXBrRUdQy3Lijo68DFwYriGGALGjc/edit?usp=share_link" target="_blank">Cover Letter Rubric</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.jz6pa8m06clo" target="_blank">AI Prompt Resource Guide: Cover Letters</a></li>
+
                     <li><a href="https://www.dropbox.com/scl/fi/j4k93sphp8td48j1afb5f/Winter-2024_MSI-Data-Alumni-Panel.mp4?rlkey=ar3fm74jcgwhmegpr8jle7qw2&dl=0" target="_blank">MSI Data Alumni Panel - Winter 2024</a></li>
                     <li><a href="https://www.dropbox.com/scl/fi/now5ondxdaeorcsvl34x2/Winter-2024_MADS-Alumni-Panel.mp4?rlkey=ipfdwmxwpe8ax4tvmqdhyjsrh&dl=0" target="_blank">MADS Alumni Career Panel - Winter 2024</a></li>
                     <li><a href="https://www.dropbox.com/scl/fi/2cvi97in2tt9eytkfak8j/W25_MADS-Alumni-Career-Panel.mp4?rlkey=pd2cpg25ep7yzx5vasmotk245&st=aojyv8mi&dl=0" target="_blank">MADS Alumni Career Panel - Winter 2025</a></li>
@@ -71,146 +75,149 @@
                     <li><a href="https://docs.google.com/presentation/d/1V0kSQXhO-8rmsv6LKP7OqQqVBUBKkSyDmFd15uDUur4/edit?usp=sharing" target="_blank">Workshop Slides: Job/Internship Search in Data</a></li>
                     <li><a href="https://drive.google.com/file/d/1bxOItOg7VJy0UxX28Tyysk91oNKzkYef/view?usp=sharing" target="_blank">Data Science Career Prep Webinar - AceAI</a></li>
                     <li><a href="https://umich.instructure.com/courses/137916/modules/items/1985978" target="_blank">ODSC Guide to Data Science Careers (PDF)</a></li>
-                </ul>
-            </section>
+                </ul>           
+            </div>
             
             <!-- Libraries & Archives -->
-            <section class="accordion">
-                <h2>Libraries & Archives</h2>
+            <button class="accordion" id="section-accordion-11" tabindex="0">Libraries & Archives</button>
+            <div class="panel" tabindex="-1">
                 <ul>
-                    <li><a href="https://docs.google.com/presentation/d/1snxqk9coJWGzj4DOOytsRnKHmIrj05FD7M1D-9P8yeQ/edit?usp=sharing" target="_blank">Workshop Slides: Job/Internship Search - Libraries & Archives</a></li>
-                    <li><a href="https://www.dropbox.com/scl/fi/894nbimqcr0l8rmb1li48/W-25-LAKES-Alumni-Panel_Recording_640x360.mp4?rlkey=wa0y1dbkeplyu8djvayejcvgh&st=yx6xlyak&dl=0" target="_blank">UMSI LAKES Alumni Panel - W25</a></li>
-                    <li><a href="https://www.dropbox.com/scl/fi/yyd74mr2q30hh3rggd1uk/Winter-2024_MSI-Library-and-Archives-Alumni-Panel.mp4?rlkey=gn2fqevceiyopmd8g3j8bwhoh&dl=0" target="_blank">UMSI Archives and Library Alumni Panel - Winter 2024</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1snxqk9coJWGzj4DOOytsRnKHmIrj05FD7M1D-9P8yeQ/edit?usp=sharing" target="_blank">Workshop Slides: Job/Internship Search - Libraries & Archives</a></li>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/894nbimqcr0l8rmb1li48/W-25-LAKES-Alumni-Panel_Recording_640x360.mp4?rlkey=wa0y1dbkeplyu8djvayejcvgh&st=yx6xlyak&dl=0" target="_blank">UMSI LAKES Alumni Panel - W25</a></li>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/yyd74mr2q30hh3rggd1uk/Winter-2024_MSI-Library-and-Archives-Alumni-Panel.mp4?rlkey=gn2fqevceiyopmd8g3j8bwhoh&dl=0" target="_blank">UMSI Archives and Library Alumni Panel - Winter 2024</a></li>
+                </ul>           
+            </div>
             
             <!-- UX Design -->
-            <section class="accordion">
-                <h2>UX Design</h2>
+            <button class="accordion"  id="section-accordion-2" tabindex="0">UX Design</button>
+            <div class="panel" tabindex="-1">
                 <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/lcswd9vyau2rnyjk19i8h/Winter-2024_MSI-UX-Alumni-Panel.mp4?rlkey=ay67qvbufb5n5quw2ej5fe4sb&dl=0" target="_blank">MSI UX Alumni Panel - Winter 2024</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1D_paU2t723q9vCd-4HIl9LoDvgLZlp9xS_nFApjCEkI/edit?usp=sharing" target="_blank">Workshop Slides: Job/Internship Search - UX</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/lcswd9vyau2rnyjk19i8h/Winter-2024_MSI-UX-Alumni-Panel.mp4?rlkey=ay67qvbufb5n5quw2ej5fe4sb&dl=0" target="_blank">MSI UX Alumni Panel - Winter 2024</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1D_paU2t723q9vCd-4HIl9LoDvgLZlp9xS_nFApjCEkI/edit?usp=sharing" target="_blank">Workshop Slides: Job/Internship Search - UX</a></li>
+                </ul>           
+            </div>
             
             <!-- Consulting -->
-            <section class="accordion">
-                <h2>Consulting</h2>
-                <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/a9ct303064voi5uz9tz4n/Consulting-Overview-1.mp4?rlkey=af4q36ri27tzk0az36ddu5cex&dl=0" target="_blank">Intro to Consulting - Tarush Nandrajog (BSI Peer Coach)</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1tr5eBwZOigr9MVr2xQhfjooeoo3P20-pUsr6PSVdpEY/edit?usp=sharing" target="_blank">Workshop Slides: Consulting Recruitment for Information Students</a></li>
-                    <li><a href="https://docs.google.com/document/d/1MPPjQ8j2c6LS4XrUXCctXYyoUaS1XJ7PUk6f5sxCVLY/edit?usp=sharing" target="_blank">Preparation for Consulting Recruitment</a></li>
-                </ul>
-            </section>
+            <button class="accordion" id="section-accordion-3" tabindex="0">Consulting</button>
+            <div class="panel" tabindex="-1">
+               <ul>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/a9ct303064voi5uz9tz4n/Consulting-Overview-1.mp4?rlkey=af4q36ri27tzk0az36ddu5cex&dl=0" target="_blank">Intro to Consulting - Tarush Nandrajog (BSI Peer Coach)</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1tr5eBwZOigr9MVr2xQhfjooeoo3P20-pUsr6PSVdpEY/edit?usp=sharing" target="_blank">Workshop Slides: Consulting Recruitment for Information Students</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1MPPjQ8j2c6LS4XrUXCctXYyoUaS1XJ7PUk6f5sxCVLY/edit?usp=sharing" target="_blank">Preparation for Consulting Recruitment</a></li>
+                </ul>           
+            </div>
             
             <!-- Software Engineering -->
-            <section class="accordion">
-                <h2>Software Engineering</h2>
+            <button class="accordion" id="section-accordion-4" tabindex="0">Software Engineering</button>
+            <div class="panel" tabindex="-1">
+                <p>Cover letters are an opportunity to showcase your personality and explain why you're a great fit for the role. Use these resources to create a compelling cover letter that stands out.</p>
+    
                 <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/z2vsaocrqlom8nlm1v40l/SWE-Overview-3.mp4?rlkey=amjn72z4rz1hx6r7l167jaz96&dl=0" target="_blank">Intro to Software Engineering - Tarush Nandrajog (BSI Peer Coach)</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/z2vsaocrqlom8nlm1v40l/SWE-Overview-3.mp4?rlkey=amjn72z4rz1hx6r7l167jaz96&dl=0" target="_blank">Intro to Software Engineering - Tarush Nandrajog (BSI Peer Coach)</a></li>
+                </ul>           
+            </div>
             
             <!-- Product Management -->
-            <section class="accordion">
-                <h2>Product Management</h2>
+            <button class="accordion" id="section-accordion-5" tabindex="0">Product Management</button>
+            <div class="panel" tabindex="-1">    
                 <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/mgbthhw2uwhsc70s4cfs8/PM-video.mp4?rlkey=rdcaew9l44plqc7v4q303qr4p&dl=0" target="_blank">Intro to Product Management - Tarush Nandrajog (BSI Peer Coach)</a></li>
-                    <li><a href="https://docs.google.com/document/d/1TUx7mYpC8xxDcjCWkP8FVe9MRLczWoiFR4d-iwMa1V8/edit?usp=sharing" target="_blank">Product Management Recruiting 101 (Handout)</a></li>
-                    <li><a href="https://drive.google.com/a/umich.edu/file/d/1JI7dTIZ_GYQC_aQutbZEo2v4rlgk2Hor/view?usp=sharing" target="_blank">Management in Industry: Product vs. Program vs. Project</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/mgbthhw2uwhsc70s4cfs8/PM-video.mp4?rlkey=rdcaew9l44plqc7v4q303qr4p&dl=0" target="_blank">Intro to Product Management - Tarush Nandrajog (BSI Peer Coach)</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1TUx7mYpC8xxDcjCWkP8FVe9MRLczWoiFR4d-iwMa1V8/edit?usp=sharing" target="_blank">Product Management Recruiting 101 (Handout)</a></li>
+                    <li class="accordion-list-item"><a href="https://drive.google.com/a/umich.edu/file/d/1JI7dTIZ_GYQC_aQutbZEo2v4rlgk2Hor/view?usp=sharing" target="_blank">Management in Industry: Product vs. Program vs. Project</a></li>
+                </ul>           
+            </div>
             
             <!-- Health Informatics -->
-            <section class="accordion">
-                <h2>Health Informatics</h2>
+            <button class="accordion" id="section-accordion-6" tabindex="0">Health Informatics</button>
+            <div class="panel" tabindex="-1">    
                 <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/u9gtmgzzvxt4hhoey2ylt/Winter-25_MHI-Alumni-Panel-and-Success-Stories_2_26_2025.mp4?rlkey=rccc6d07hakvc79oahww2o0ws&st=85gyf31z&dl=0" target="_blank">UMSI MHI Alumni Panel - W25</a></li>
-                    <li><a href="https://www.dropbox.com/scl/fi/eipw3drzszr96ctl8c1lh/Winter-2024_MHI-Alumni-Panel.mp4?rlkey=p6hcz0zho7occri6d45p13b4i&dl=0" target="_blank">MHI Alumni Career Panel - Winter 2024</a></li>
-                    <li><a href="https://umich.zoom.us/rec/share/Q8VXTXsWbyZbfd307-B59g6CEE9D3gJ8a4g1tsYKmNNbHRJ21yFRaD8Z1GcijD14.59Ty0JgELZGmCGig" target="_blank">Health Informatics Careers Alumni Panel</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/u9gtmgzzvxt4hhoey2ylt/Winter-25_MHI-Alumni-Panel-and-Success-Stories_2_26_2025.mp4?rlkey=rccc6d07hakvc79oahww2o0ws&st=85gyf31z&dl=0" target="_blank">UMSI MHI Alumni Panel - W25</a></li>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/eipw3drzszr96ctl8c1lh/Winter-2024_MHI-Alumni-Panel.mp4?rlkey=p6hcz0zho7occri6d45p13b4i&dl=0" target="_blank">MHI Alumni Career Panel - Winter 2024</a></li>
+                    <li class="accordion-list-item"><a href="https://umich.zoom.us/rec/share/Q8VXTXsWbyZbfd307-B59g6CEE9D3gJ8a4g1tsYKmNNbHRJ21yFRaD8Z1GcijD14.59Ty0JgELZGmCGig" target="_blank">Health Informatics Careers Alumni Panel</a></li>
+                </ul>           
+            </div>
             
             <!-- Nonprofit & Public Sector -->
-            <section class="accordion">
-                <h2>Nonprofit & Public Sector</h2>
+            <button class="accordion" id="section-accordion-7" tabindex="0">Nonprofit & Public Sector</button>
+            <div class="panel" tabindex="-1">    
                 <ul>
-                    <li><a href="https://docs.google.com/presentation/d/1k83m2dodzUBuzO5lR2NZrJ960PTIdLHhDbB_rvvbJy4/edit?usp=sharing" target="_blank">NPO/Public Sector Jobs & Internships Workshop</a></li>
-                    <li><a href="https://docs.google.com/document/d/10QTjg7Rz7YA7EOqRPaVQthR8U8E0TkL2HxpJI4zuaf0/edit?usp=sharing" target="_blank">Nonprofit & Public Sector Recruitment (Handout)</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1k83m2dodzUBuzO5lR2NZrJ960PTIdLHhDbB_rvvbJy4/edit?usp=sharing" target="_blank">NPO/Public Sector Jobs & Internships Workshop</a></li>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/10QTjg7Rz7YA7EOqRPaVQthR8U8E0TkL2HxpJI4zuaf0/edit?usp=sharing" target="_blank">Nonprofit & Public Sector Recruitment (Handout)</a></li>
+                </ul>           
+            </div>
             
             <!-- BSI Careers -->
-            <section class="accordion">
-                <h2>BSI Careers</h2>
+            <button class="accordion" id="section-accordion-8" tabindex="0">BSI Careers</button>
+            <div class="panel" tabindex="-1">    
                 <ul>
-                    <li><a href="https://www.dropbox.com/scl/fi/lcpz5p0v2jzuf0w0ut7i9/BSI-Alumni-Panel-9_23.mp4?rlkey=ces1hugdrho3xre0pj7kb6wqz&dl=0" target="_blank">BSI Alumni Panel - 9/7/23</a></li>
-                    <li><a href="https://www.dropbox.com/scl/fi/w0pdu0qsrlgraz85u1a28/BSI-Alumni-Panel-F23-10-26-23.mp4?rlkey=5snscjndicjgc4u88wxm1iix1&dl=0" target="_blank">BSI Alumni Panel - 10/26/23</a></li>
-                    <li><a href="https://www.dropbox.com/scl/fi/244c0j7twtyn0txiicsff/BSI-Alumni-Panel-Fall-2024.mp4?rlkey=8reyi3kfkwwhe3lh75w9b0umj&st=vdnei8yp&dl=0" target="_blank">BSI Alumni Panel - 9/5/24</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/lcpz5p0v2jzuf0w0ut7i9/BSI-Alumni-Panel-9_23.mp4?rlkey=ces1hugdrho3xre0pj7kb6wqz&dl=0" target="_blank">BSI Alumni Panel - 9/7/23</a></li>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/w0pdu0qsrlgraz85u1a28/BSI-Alumni-Panel-F23-10-26-23.mp4?rlkey=5snscjndicjgc4u88wxm1iix1&dl=0" target="_blank">BSI Alumni Panel - 10/26/23</a></li>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/244c0j7twtyn0txiicsff/BSI-Alumni-Panel-Fall-2024.mp4?rlkey=8reyi3kfkwwhe3lh75w9b0umj&st=vdnei8yp&dl=0" target="_blank">BSI Alumni Panel - 9/5/24</a></li>
+                </ul>           
+            </div>
             
             <!-- PhD Career Paths -->
-            <section class="accordion">
-                <h2>PhD Career Paths</h2>
+            <button class="accordion" id="section-accordion-9" tabindex="0">PhD Career Paths</button>
+            <div class="panel" tabindex="-1">
                 <ul>
-                    <li><a href="https://docs.google.com/document/d/1iRy9RZsiBdxy1sCleAxSjv81CdeUG-SwWt7NjoiyKvc/edit?usp=sharing" target="_blank">PhD Career Resources</a></li>
-                    <li><a href="https://www.dropbox.com/scl/fi/zq1qgp2p9jzdh8jj6cmrr/Winter-2024_UMSI-PhD-Alumni-Panel.mp4?rlkey=rerb241sp101orp7e5tokw2oc&dl=0" target="_blank">PhD Alumni Panel: Industry & Alt-ac Careers - W24</a></li>
-                    <li><a href="https://youtu.be/rVxeOMFpWtU" target="_blank">PhD Career Connections Video - VersatilePhD & UCAN</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1iRy9RZsiBdxy1sCleAxSjv81CdeUG-SwWt7NjoiyKvc/edit?usp=sharing" target="_blank">PhD Career Resources</a></li>
+                    <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/zq1qgp2p9jzdh8jj6cmrr/Winter-2024_UMSI-PhD-Alumni-Panel.mp4?rlkey=rerb241sp101orp7e5tokw2oc&dl=0" target="_blank">PhD Alumni Panel: Industry & Alt-ac Careers - W24</a></li>
+                    <li class="accordion-list-item"><a href="https://youtu.be/rVxeOMFpWtU" target="_blank">PhD Career Connections Video - VersatilePhD & UCAN</a></li>
+                </ul>           
+            </div>
             
             <!-- Working Internationally -->
-            <section class="accordion">
-                <h2>Working Internationally</h2>
+            <button class="accordion" id="section-accordion-10" tabindex="0">Working Internationally</button>
+            <div class="panel" tabindex="-1">
                 <p>Explore resources and tips for finding internships and jobs abroad, as well as how to highlight your international experiences to employers.</p>
+    
                 <ul>
-                    <li><a href="https://drive.google.com/a/umich.edu/file/d/1WJYAFYVCsK51OGBudhT5R_C849XSJGRJ/view?usp=sharing" target="_blank">Highlighting Your International Experiences to Employers</a></li>
-                    <li><a href="https://umich.instructure.com/courses/137916/modules/items/2400763" target="_blank">International Internships & Employment Resources (PDF)</a></li>
-                </ul>
-            </section>
+                    <li class="accordion-list-item"><a href="https://drive.google.com/a/umich.edu/file/d/1WJYAFYVCsK51OGBudhT5R_C849XSJGRJ/view?usp=sharing" target="_blank">Highlighting Your International Experiences to Employers</a></li>
+                    <li class="accordion-list-item"><a href="https://umich.instructure.com/courses/137916/modules/items/2400763" target="_blank">International Internships & Employment Resources (PDF)</a></li>
+                </ul>           
+            </div>
         </section>
 
-        <section class="section">
-            <!-- Job/Internship Search Planning -->
-            <h2>Planning Your Job/Internship Search</h2>
+
+        <button class="accordion" tabindex="0">Planning Your Job/Internship Search</button>
+        <div class="panel" tabindex="-1">
             <p>Whether you're just starting your job search or looking to refine your approach, we have resources to help you plan effectively.</p>
             
-            <h3>Job/Internship Search Planning Resources</h3>
+            <h2>Job/Internship Search Planning Resources</h2>
             <p>Explore our curated resources to help you plan your job or internship search.</p>
-            <ul>
-                <li><a href="https://docs.google.com/spreadsheets/d/1fT4YeP1M5moXtFYniTkyb-CCLV7PZ75B9iJFH-XWMv4/edit?usp=sharing" target="_blank">Job Search Plan & Application Tracker (Template)</a></li>
-                <li><a href="https://docs.google.com/document/d/14Q3v3K5_SwgIAbkhCgyX9Vd3JPs9nR245ACvP3Csq5I/edit?usp=sharing" target="_blank">Recruiting Timeline (Handout)</a></li>
-                <li><a href="https://docs.google.com/presentation/d/1CAvzzGn6e7VyjItP8DqWiu44lOfs-KU5vz9ImupaPdY/edit?usp=sharing" target="_blank">Prep for Fall Recruitment (Workshop Slides)</a></li>
-                <li><a href="https://docs.google.com/document/d/1fblfjC2Tki2MZOminwoIonvJYJ5tiBTKP8isaCzaIfY/edit?usp=sharing" target="_blank">Job & Internship Search Checklist</a></li>
-                <li><a href="https://docs.google.com/document/d/1_Mh2N-azjpH-WAf0Z6T51D6ag5ciYw4HpNwc0T6j_rM/edit?usp=sharing" target="_blank">Strategic Job and Internship Plan</a></li>
-                <li><a href="https://docs.google.com/document/d/19kWFf53hYuAs-aa9igwV87WosoKJa1AsX_OUqLWjENk/edit?usp=sharing" target="_blank">Planning Worksheet</a></li>
-                <li><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.tds98meydr4t" target="_blank">AI Prompt Resource Guide: Job/Internship Searching</a></li>
-                <li><a href="https://docs.google.com/document/d/1PXcEpUmqIx0wdJbSFPSGQDrWMRyZEe_YFoQHtKZDko4/edit?usp=sharing" target="_blank">Critical Career Factors Inventory</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/17ZtvEgIouUYdTgXBk9yI8fZQeAeqhrK9jHB8mF1KLzY/edit?usp=sharing" target="_blank">Identifying Your Workplace Values (Worksheet)</a></li>
-                <li><a href="https://docs.google.com/presentation/d/1Yw5BFwowlfjZ9KTy-P0AzUdBdx3pyTUYfAGhqEvgtSA/edit#slide=id.g9397362aad_0_15" target="_blank">2-Hour Job Search (Workshop Slides)</a></li>
-                <li><a href="https://www.dropbox.com/scl/fi/vdtmy0snc3qlt3z4jjpen/LinkedIn-ChatGPT-Secrets_video.mp4?rlkey=8ntmc5p48vwsg4rcj4hosy79s&st=ppynw02q&dl=0" target="_blank">LinkedIn & ChatGPT Secrets Revealed – Jeremy Schifeling (Recording)</a></li>
-            </ul>
-        </section>
 
-        <section class="accordion">
-            <h2>Finding Position Openings</h2>
+            <ul></ul>
+                <li class="accordion-list-item"><a href="https://docs.google.com/spreadsheets/d/1fT4YeP1M5moXtFYniTkyb-CCLV7PZ75B9iJFH-XWMv4/edit?usp=sharing" target="_blank">Job Search Plan & Application Tracker (Template)</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/14Q3v3K5_SwgIAbkhCgyX9Vd3JPs9nR245ACvP3Csq5I/edit?usp=sharing" target="_blank">Recruiting Timeline (Handout)</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1CAvzzGn6e7VyjItP8DqWiu44lOfs-KU5vz9ImupaPdY/edit?usp=sharing" target="_blank">Prep for Fall Recruitment (Workshop Slides)</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1fblfjC2Tki2MZOminwoIonvJYJ5tiBTKP8isaCzaIfY/edit?usp=sharing" target="_blank">Job & Internship Search Checklist</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1_Mh2N-azjpH-WAf0Z6T51D6ag5ciYw4HpNwc0T6j_rM/edit?usp=sharing" target="_blank">Strategic Job and Internship Plan</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/19kWFf53hYuAs-aa9igwV87WosoKJa1AsX_OUqLWjENk/edit?usp=sharing" target="_blank">Planning Worksheet</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1C-rxX5VcjVH7YjMdHil1VMo9ZdSOHmausOcX61dld-g/edit#heading=h.tds98meydr4t" target="_blank">AI Prompt Resource Guide: Job/Internship Searching</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1PXcEpUmqIx0wdJbSFPSGQDrWMRyZEe_YFoQHtKZDko4/edit?usp=sharing" target="_blank">Critical Career Factors Inventory</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/spreadsheets/d/17ZtvEgIouUYdTgXBk9yI8fZQeAeqhrK9jHB8mF1KLzY/edit?usp=sharing" target="_blank">Identifying Your Workplace Values (Worksheet)</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1Yw5BFwowlfjZ9KTy-P0AzUdBdx3pyTUYfAGhqEvgtSA/edit#slide=id.g9397362aad_0_15" target="_blank">2-Hour Job Search (Workshop Slides)</a></li>
+                <li class="accordion-list-item"><a href="https://www.dropbox.com/scl/fi/vdtmy0snc3qlt3z4jjpen/LinkedIn-ChatGPT-Secrets_video.mp4?rlkey=8ntmc5p48vwsg4rcj4hosy79s&st=ppynw02q&dl=0" target="_blank">LinkedIn & ChatGPT Secrets Revealed – Jeremy Schifeling (Recording)</a></li>
+            </ul>           
+        </div>
+
+        <button class="accordion" tabindex="0">Finding Position Openings</button>
+        <div class="panel" tabindex="-1">
             <p>Discover various platforms and strategies to find job and internship openings that align with your career goals.</p>
 
-            <h3>Finding Position Openings Resources</h3>
+            <h2>Finding Position Openings Resources</h2>
             <p>Explore our curated resources to help you find job or internship openings.</p>
-            <ul>
-                <li><a href="https://umich.instructure.com/courses/137916/modules/items/3808117" target="_blank">Search Strategies for Jobs & Internships</a></li>
-            </ul>
 
-            <section class="accordion">
-                <h3>Finding a Part-Time Job</h2>
-                <ul>
-                  <li><a href="https://docs.google.com/document/d/1cQybKz6QKjBNAhrowpeiXdb-7npnRBiWLQde6re-wOo/edit?usp=sharing" target="_blank">Part-Time Job Resources</a></li>
-                  <li><a href="https://docs.google.com/presentation/d/1wINbTLwvxODWBIvSidmZavLMwki9CSzH2p0Lh7LIpOs/edit?usp=sharing" target="_blank">Finding a Part-Time Job (Workshop Slides)</a></li>
-                </ul>
-            </section>
-        </section>
+            <ul>
+                <li class="accordion-list-item"><a href="https://umich.instructure.com/courses/137916/modules/items/3808117" target="_blank">Search Strategies for Jobs & Internships</a></li>
+            </ul>
+            
+            <h2>Finding a Part-Time Job</h2>
+            <ul>
+                <li class="accordion-list-item"><a href="https://docs.google.com/document/d/1cQybKz6QKjBNAhrowpeiXdb-7npnRBiWLQde6re-wOo/edit?usp=sharing" target="_blank">Part-Time Job Resources</a></li>
+                <li class="accordion-list-item"><a href="https://docs.google.com/presentation/d/1wINbTLwvxODWBIvSidmZavLMwki9CSzH2p0Lh7LIpOs/edit?usp=sharing" target="_blank">Finding a Part-Time Job (Workshop Slides)</a></li>
+              </ul>
+        </div>
     </main>
 
 
@@ -228,6 +235,8 @@
             </script>
         </div>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
