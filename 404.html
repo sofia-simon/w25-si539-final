@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="icon" href="photos/umsi_favicon.jpg" type="image/jpg">
+    
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- title -->
+    <title>404 Not Found</title>
+</head>
+
+<body>
+    <!-- referenced from client project desktop view -->
+    <div class = "skip-link">
+        <a href="#content">Skip to Main Content</a>
+    </div>
+
+    <header class="header-container">
+        <div class="header-logo">
+            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
+        </div>
+        
+        <nav>
+            <ul>
+                <li class="selected"><a href = "index.html">Home</a></li>
+                <li><a href = "navigation/applications.html">Applications</a></li>
+                <li><a href="navigation/internship_search.html">Internships</a></li>
+                <li><a href="navigation/networking.html">Networking</a></li>
+                <li><a href="navigation/interviewing_negotiations.html">Interviewing</a></li>
+                <li><a href="navigation/belonging.html">Workplace Belongings</a></li>
+                <li><a href="navigation/courses.html">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section class="hero">
+            <h1>404 Not Found</h1>
+            <img src="photos/umsi_404_graphic.png" alt="squirrel with outreached arms behind a pile of nuts with text saying 'Nuts. You found MUMSI's secret stash of acorns– but not the page you were looking for.'" class="hero-image">
+            <p>Sorry, the page you are looking for does not exist. Please check the URL or return to the <a href="index.html">home page</a>.</p>
+        </section>
+        
+    </main>
+
+
+    <footer>
+        <p class="footer">Career Development Office</p>
+        <p class="footer-decoration">|</p>
+        <a href="https://www.si.umich.edu/student-experience/career-development">Learn more about the CDO</a>
+        <p class="footer-decoration">|</p>
+        <p>Email Us at <a href="mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a></p>
+        <p class="footer-decoration">|</p>
+        <div>
+            <script>
+                const year = new Date().getFullYear();
+                document.write(`<p>&copy; ${year}</p>`);
+            </script>
+        </div>
+    </footer>
+</body>
+
+</html>
