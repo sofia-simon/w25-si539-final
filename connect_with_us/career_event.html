@@ -9,7 +9,7 @@
     
     <!-- style sheets -->
     <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
 
     <header class="header-container">
         <div class="header-logo">
-            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
+            <img src="../photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
         </div>
         
         <nav>
@@ -52,7 +52,7 @@
 
         <section class="section">
             <h2>Find & Attend an Event</h2>
-            <p>Find upcoming career workshops, employer events, and Alumni Career Connections on <a href="https://si-umich.12twenty.com/">CareerLink</a>!</p>
+            <p class="body-1">Find upcoming career workshops, employer events, and Alumni Career Connections on <a href="https://si-umich.12twenty.com/">CareerLink</a>!</p>
 
             <p>Navigate to the “Events” tab on the left-hand menu of the page. Utilize the “Event Type” filter to explore different categories of events.</p>
         </section>
@@ -60,32 +60,39 @@
         <section class="section">
             <h2>Explore More Career Events</h2>
             
-            <p>Explore additional on-campus career events through the following resources:</p>
-            <a href="https://careercenter.umich.edu/events" target="_blank">University Career Center</a>
-            <a href="https://events.umich.edu/" target="_blank">Happening @ Michigan</a>
+            <p class="body-1">Explore additional on-campus career events through the following resources:</p>
+            <a href="https://careercenter.umich.edu/events" target="_blank" class="buttons">University Career Center</a>
+            <a href="https://events.umich.edu/" target="_blank" class="buttons">Happening @ Michigan</a>
         </section>
 
         <section class="section">
             <h2>Preparing for Employer Events</h2>
 
-            <h3>Craft an Elevator Pitch</h3>
-            <p>An Elevator Pitch is a very fast and engaging self-introduction, purposefully designed to start a conversation. It should include engaging information about you and your goals.</p>
-            <a href="https://docs.google.com/document/d/1633aBaWXIZW_ImTP-jKKN0QNXK9-RpXXmVznRgA4ZHQ/edit" target="_blank" class="button">Elevator Pitch Rubric</a>
-
-            <h3>Career Fair Prep</h3>
-            <p>Review the <a href="https://docs.google.com/presentation/d/1ZQG4dY5Let1iot2GuKhV1mO_vgbvxv4YTNE2HP2qqf8/edit" target="_blank">CDO's 2024 UMSI Career Fair Prep Workshop slides</a> for insights on strategies & tips for success at career fairs and recruitment events.</p>
+            <div class="grid-container">
+                <div>
+                    <h3>Craft an Elevator Pitch</h3>
+                    <p class="body-1">An Elevator Pitch is a very fast and engaging self-introduction, purposefully designed to start a conversation. It should include engaging information about you and your goals.</p>
+                    <a href="https://docs.google.com/document/d/1633aBaWXIZW_ImTP-jKKN0QNXK9-RpXXmVznRgA4ZHQ/edit" target="_blank" class="buttons">Elevator Pitch Rubric</a>
+                </div>
+                
+                <div>
+                    <h3>Career Fair Prep</h3>
+                    <p class="body-1">Review the <a href="https://docs.google.com/presentation/d/1ZQG4dY5Let1iot2GuKhV1mO_vgbvxv4YTNE2HP2qqf8/edit" target="_blank">CDO's 2024 UMSI Career Fair Prep Workshop slides</a> for insights on strategies & tips for success at career fairs and recruitment events.</p>
+                </div>
+            </div>
+            
         </section>
     </main>
 
 
-    <footer>
-        <p class="footer">Career Development Office</p>
-        <p class="footer-decoration">|</p>
+    <footer class="footer-container">
+        <p class="footer body-1">Career Development Office</p>
+        <p class="footer-decoration  body-1">|</p>
         <a href="https://www.si.umich.edu/student-experience/career-development">Learn more about the CDO</a>
-        <p class="footer-decoration">|</p>
-        <p>Email Us at <a href="mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a></p>
-        <p class="footer-decoration">|</p>
-        <div>
+        <p class="footer-decoration  body-1">|</p>
+        <p class="body-1">Email Us at <a href="mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a></p>
+        <p class="footer-decoration body-1">|</p>
+        <div id="footer-year">
             <script>
                 const year = new Date().getFullYear();
                 document.write(`<p>&copy; ${year}</p>`);
