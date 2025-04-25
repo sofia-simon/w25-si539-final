@@ -284,6 +284,22 @@ footer a {
     line-height: 27px; /* 150% */
 }
 
+/* 404 */
+.squirrel-404 {
+    max-width: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---MEDIA QUERY--- */
@@ -321,6 +337,13 @@ footer a {
 
     .footer-container {
         flex-direction: row;
+    }
+
+
+
+    /* 404 */
+    .squirrel-404 {
+        max-width: 600px;
     }
 
 }

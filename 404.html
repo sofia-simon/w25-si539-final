@@ -27,13 +27,13 @@
     </div>
 
     <header class="header-container">
-        <div class="header-logo">
-            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75">
+        <div class="header-logo" >
+            <img src="photos/umsi_favicon.jpg" alt="UMSI Logo" height="75" width="75" >
         </div>
         
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li class="selected"><a href = "index.html">Home</a></li>
+                <li><a href = "index.html">Home</a></li>
                 <li><a href = "navigation/applications.html">Applications</a></li>
                 <li><a href="navigation/internship_search.html">Internships</a></li>
                 <li><a href="navigation/networking.html">Networking</a></li>
@@ -47,21 +47,21 @@
     <main id="content">
         <section class="hero">
             <h1>404 Not Found</h1>
-            <img src="photos/umsi_404_graphic.png" alt="squirrel with outreached arms behind a pile of nuts with text saying 'Nuts. You found MUMSI's secret stash of acorns– but not the page you were looking for.'" class="hero-image">
+            <img src="photos/umsi_404_graphic.png" alt="squirrel with outreached arms behind a pile of nuts with text saying 'Nuts. You found MUMSI's secret stash of acorns- but not the page you were looking for.'" class="hero-image squirrel-404">
             <p>Sorry, the page you are looking for does not exist. Please check the URL or return to the <a href="index.html">home page</a>.</p>
         </section>
         
     </main>
 
 
-    <footer>
-        <p class="footer">Career Development Office</p>
-        <p class="footer-decoration">|</p>
+    <footer class="footer-container">
+        <p class="footer body-1">Career Development Office</p>
+        <p class="footer-decoration  body-1">|</p>
         <a href="https://www.si.umich.edu/student-experience/career-development">Learn more about the CDO</a>
-        <p class="footer-decoration">|</p>
-        <p>Email Us at <a href="mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a></p>
-        <p class="footer-decoration">|</p>
-        <div>
+        <p class="footer-decoration  body-1">|</p>
+        <p class="body-1">Email Us at <a href="mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a></p>
+        <p class="footer-decoration body-1">|</p>
+        <div id="footer-year">
             <script>
                 const year = new Date().getFullYear();
                 document.write(`<p>&copy; ${year}</p>`);
