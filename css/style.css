@@ -167,7 +167,7 @@ nav ul li a {
     color: var(--Blue, #00274C);
 
     /* H2 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 22.781px;
     font-style: normal;
     font-weight: 700;
@@ -178,7 +178,7 @@ nav ul li a {
     color: var(--Puma-Black, #131516);
 
     /* Body 1 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -213,7 +213,7 @@ nav ul li a {
     color: var(--Puma-Black, #131516);
 
     /* Button 1 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -316,7 +316,7 @@ footer a {
     color: var(--Puma-Black, #131516);
 
     /* Button 1 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -327,7 +327,7 @@ footer a {
     color: var(--Puma-Black, #131516);
 
     /* Button 1 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -402,7 +402,7 @@ button {
     color: var(--Blue, #00274C);
 
     /* H2 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 22.781px;
     font-style: normal;
     font-weight: 700;
@@ -455,7 +455,7 @@ button {
     /* color: var(--Blue, #00274C); */
 
     /* H2 */
-    font-family: Inter;
+    font-family: Atkinson Hyperlegible;
     font-size: 22.781px;
     font-style: normal;
     font-weight: 700;
